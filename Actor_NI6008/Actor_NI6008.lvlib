@@ -8,7 +8,9 @@
 		<Item Name="Msg From this" Type="Folder">
 			<Item Name="NI6008 Status Report Msg.lvclass" Type="LVClass" URL="../I_NI6008 Messages/NI6008 Status Report Msg/NI6008 Status Report Msg.lvclass"/>
 		</Item>
-		<Item Name="Msg To this" Type="Folder"/>
+		<Item Name="Msg To this" Type="Folder">
+			<Item Name="NI6008 DUT Switch Msg.lvclass" Type="LVClass" URL="../Actor_NI6008 Messages/NI6008 DUT Switch Msg/NI6008 DUT Switch Msg.lvclass"/>
+		</Item>
 	</Item>
 	<Item Name="I_NI6008.lvclass" Type="LVClass" URL="../I_NI6008/I_NI6008.lvclass"/>
 	<Item Name="Actor_NI6008.lvclass" Type="LVClass" URL="../Actor_NI6008/Actor_NI6008.lvclass"/>

@@ -47,4 +47,13 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 	</Item>
+	<Item Name="NI6008 DUT Switch.vi" Type="VI" URL="../NI6008 DUT Switch.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;1!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%2!=!!?!!!J%E&amp;D&gt;'^S8UZ*.D!Q/#ZM&gt;GRJ9B2"9X2P=F^/349Q-$AO&lt;(:D&lt;'&amp;T=Q!117.U&lt;X*@4EEW-$!Y)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!.1!5!"U266#"/&lt;SY!1E"Q!"Y!!#E317.U&lt;X*@4EEW-$!Y,GRW&lt;'FC&amp;%&amp;D&gt;'^S8UZ*.D!Q/#ZM&gt;G.M98.T!!^"9X2P=F^/349Q-$AA;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!*!!!!!!!1!*!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
 </LVClass>

@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="varPersistentID:{2811D79E-6B95-4B10-B1B4-B83CA93BE8FD}" Type="Ref">/My Computer/DataPool.lvlib/DataPool_Rand Number</Property>
+	<Property Name="varPersistentID:{625241D6-0243-4824-9A9F-9A99A44AC411}" Type="Ref">/My Computer/DataPool.lvlib/NI6008 Online</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -12,6 +13,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Unit Testing" Type="Folder">
+			<Item Name="Unit Test launcher.vi" Type="VI" URL="../Unit Testing/Unit_Test_NI6008/Unit_Test_NI6008/Unit Test launcher.vi"/>
+			<Item Name="Unit_Test_NI6008.lvlib" Type="Library" URL="../Unit Testing/Unit_Test_NI6008/Unit_Test_NI6008.lvlib"/>
+		</Item>
 		<Item Name="DataPool.lvlib" Type="Library" URL="../DataPool/DataPool.lvlib"/>
 		<Item Name="_luncher.vi" Type="VI" URL="../_luncher.vi"/>
 		<Item Name="Controller.lvlib" Type="Library" URL="../Controller/Controller.lvlib"/>
@@ -163,6 +168,11 @@
 				<Item Name="DAQmx Write.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
+				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
+				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
+				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
+				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
+				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
