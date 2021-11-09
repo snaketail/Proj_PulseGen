@@ -17,6 +17,7 @@
 		<Item Name="Unit Testing" Type="Folder">
 			<Item Name="Unit Test launcher.vi" Type="VI" URL="../Unit Testing/Unit_Test_NI6008/Unit_Test_NI6008/Unit Test launcher.vi"/>
 			<Item Name="Unit_Test_NI6008.lvlib" Type="Library" URL="../Unit Testing/Unit_Test_NI6008/Unit_Test_NI6008.lvlib"/>
+			<Item Name="AppPath.vi" Type="VI" URL="../Unit Testing/Unit_Test_NI6008/AppPath.vi"/>
 		</Item>
 		<Item Name="DataPool.lvlib" Type="Library" URL="../DataPool/DataPool.lvlib"/>
 		<Item Name="_luncher.vi" Type="VI" URL="../_luncher.vi"/>
