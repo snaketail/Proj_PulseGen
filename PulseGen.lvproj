@@ -25,6 +25,7 @@
 		<Item Name="Main_UI.lvlib" Type="Library" URL="../Main_UI/Main_UI.lvlib"/>
 		<Item Name="Actor_log.lvlib" Type="Library" URL="../Actor_log/Actor_log.lvlib"/>
 		<Item Name="Actor_NI6008.lvlib" Type="Library" URL="../Actor_NI6008/Actor_NI6008.lvlib"/>
+		<Item Name="Actor_AFG.lvlib" Type="Library" URL="../Actor_AFG/Actor_AFG.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
