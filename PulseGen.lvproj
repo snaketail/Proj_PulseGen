@@ -2,6 +2,9 @@
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="varPersistentID:{2811D79E-6B95-4B10-B1B4-B83CA93BE8FD}" Type="Ref">/My Computer/DataPool.lvlib/DataPool_Rand Number</Property>
 	<Property Name="varPersistentID:{2D6C5A4B-471D-4821-80E2-FCA4A80EDE3B}" Type="Ref">/My Computer/DataPool.lvlib/AI0_reading</Property>
+	<Property Name="varPersistentID:{31D7EF7A-8141-4B3C-A874-C75CF53DBEF3}" Type="Ref">/My Computer/DataPool.lvlib/Pulser Online</Property>
+	<Property Name="varPersistentID:{3C83B601-FBED-47DB-820A-4B632021FB3F}" Type="Ref">/My Computer/DataPool.lvlib/AFG Online</Property>
+	<Property Name="varPersistentID:{3D2B5533-AE1D-4CD9-AA84-71BBC7C14D9A}" Type="Ref">/My Computer/DataPool.lvlib/Scope Online</Property>
 	<Property Name="varPersistentID:{625241D6-0243-4824-9A9F-9A99A44AC411}" Type="Ref">/My Computer/DataPool.lvlib/NI6008 Online</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -26,6 +29,7 @@
 		<Item Name="Actor_log.lvlib" Type="Library" URL="../Actor_log/Actor_log.lvlib"/>
 		<Item Name="Actor_NI6008.lvlib" Type="Library" URL="../Actor_NI6008/Actor_NI6008.lvlib"/>
 		<Item Name="Actor_AFG.lvlib" Type="Library" URL="../Actor_AFG/Actor_AFG.lvlib"/>
+		<Item Name="PCRamCellNo.ctl" Type="VI" URL="../Main_UI/PCRamCellNo.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
