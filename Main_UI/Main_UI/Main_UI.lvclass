@@ -19,6 +19,7 @@
 </Property>
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
 		<Item Name="Actor Framework.lvlib:Actor.lvclass" Type="Parent" URL="/&lt;vilib&gt;/ActorFramework/Actor/Actor.lvclass"/>
 	</Item>
@@ -56,6 +57,15 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1351098896</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
+	</Item>
+	<Item Name="PCRamCellNo.ctl" Type="VI" URL="../../PCRamCellNo.ctl">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"V!!!!!1"N!0%!!!!!!!!!!QV.97FO8V6*,GRW&lt;'FC$UVB;7Z@65EO&lt;(:D&lt;'&amp;T=Q^11V*B&lt;5.F&lt;'R/&lt;SZD&gt;'Q!.U!7!!1'1W6M&lt;#!R"E.F&lt;'QA-A:$:7RM)$-'1W6M&lt;#!U!!Z11V*B&lt;3"$:7RM)%ZP,A!!!1!!!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 	</Item>
 	<Item Name="Do UI Exit.vi" Type="VI" URL="../Do UI Exit.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%S!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!@$5VB;7Z@65EO&lt;(:M;7)047&amp;J&lt;F^633ZM&gt;G.M98.T!!N.97FO8V6*)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$2!=!!?!!!@$5VB;7Z@65EO&lt;(:M;7)047&amp;J&lt;F^633ZM&gt;G.M98.T!!J.97FO8V6*)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
