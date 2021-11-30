@@ -6,6 +6,7 @@
 	<Property Name="varPersistentID:{3C83B601-FBED-47DB-820A-4B632021FB3F}" Type="Ref">/My Computer/DataPool.lvlib/AFG Online</Property>
 	<Property Name="varPersistentID:{3D2B5533-AE1D-4CD9-AA84-71BBC7C14D9A}" Type="Ref">/My Computer/DataPool.lvlib/Scope Online</Property>
 	<Property Name="varPersistentID:{625241D6-0243-4824-9A9F-9A99A44AC411}" Type="Ref">/My Computer/DataPool.lvlib/NI6008 Online</Property>
+	<Property Name="varPersistentID:{C37D6C20-7923-4323-A7D5-5F837DFCD575}" Type="Ref">/My Computer/DataPool.lvlib/NI6008_Triggered</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -18,9 +19,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Unit Testing" Type="Folder">
+			<Item Name="AppPath.vi" Type="VI" URL="../Unit Testing/Unit_Test_NI6008/AppPath.vi"/>
 			<Item Name="Unit Test launcher.vi" Type="VI" URL="../Unit Testing/Unit_Test_NI6008/Unit_Test_NI6008/Unit Test launcher.vi"/>
 			<Item Name="Unit_Test_NI6008.lvlib" Type="Library" URL="../Unit Testing/Unit_Test_NI6008/Unit_Test_NI6008.lvlib"/>
-			<Item Name="AppPath.vi" Type="VI" URL="../Unit Testing/Unit_Test_NI6008/AppPath.vi"/>
+			<Item Name="Unit_Test_AFG.lvlib" Type="Library" URL="../Unit_Test_AFG/Unit_Test_AFG.lvlib"/>
 		</Item>
 		<Item Name="DataPool.lvlib" Type="Library" URL="../DataPool/DataPool.lvlib"/>
 		<Item Name="_luncher.vi" Type="VI" URL="../_luncher.vi"/>
@@ -29,6 +31,7 @@
 		<Item Name="Actor_log.lvlib" Type="Library" URL="../Actor_log/Actor_log.lvlib"/>
 		<Item Name="Actor_NI6008.lvlib" Type="Library" URL="../Actor_NI6008/Actor_NI6008.lvlib"/>
 		<Item Name="Actor_AFG.lvlib" Type="Library" URL="../Actor_AFG/Actor_AFG.lvlib"/>
+		<Item Name="Actor_Scope.lvlib" Type="Library" URL="../Actor_Scope/Actor_Scope.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -267,6 +270,9 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 			</Item>
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
+			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
@@ -275,6 +281,9 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="AFG Points Gen.vi" Type="VI" URL="../../../../Desktop/AFG Points Gen.vi"/>
+			<Item Name="Section Points.vi" Type="VI" URL="../../../../Desktop/Section Points.vi"/>
+			<Item Name="RFt Gen.vi" Type="VI" URL="../../../../Desktop/RFt Gen.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

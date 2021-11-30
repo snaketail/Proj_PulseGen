@@ -13,6 +13,7 @@
 			<Item Name="NI6008 Read AI0 Msg.lvclass" Type="LVClass" URL="../Actor_NI6008 Messages/NI6008 Read AI0 Msg/NI6008 Read AI0 Msg.lvclass"/>
 			<Item Name="NI6008 LED Ctrl Msg.lvclass" Type="LVClass" URL="../Actor_NI6008 Messages/NI6008 LED Ctrl Msg/NI6008 LED Ctrl Msg.lvclass"/>
 			<Item Name="NI6008 TestCtrl Ctrl Msg.lvclass" Type="LVClass" URL="../Actor_NI6008 Messages/NI6008 TestCtrl Ctrl Msg/NI6008 TestCtrl Ctrl Msg.lvclass"/>
+			<Item Name="NI6008 Enout Trigger Msg.lvclass" Type="LVClass" URL="../Actor_NI6008 Messages/NI6008 Enout Trigger Msg/NI6008 Enout Trigger Msg.lvclass"/>
 		</Item>
 	</Item>
 	<Item Name="I_NI6008.lvclass" Type="LVClass" URL="../I_NI6008/I_NI6008.lvclass"/>
