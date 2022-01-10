@@ -5,8 +5,11 @@
 	<Property Name="varPersistentID:{31D7EF7A-8141-4B3C-A874-C75CF53DBEF3}" Type="Ref">/My Computer/DataPool.lvlib/Pulser Online</Property>
 	<Property Name="varPersistentID:{3C83B601-FBED-47DB-820A-4B632021FB3F}" Type="Ref">/My Computer/DataPool.lvlib/AFG Online</Property>
 	<Property Name="varPersistentID:{3D2B5533-AE1D-4CD9-AA84-71BBC7C14D9A}" Type="Ref">/My Computer/DataPool.lvlib/Scope Online</Property>
+	<Property Name="varPersistentID:{3E9D1732-E236-45DA-A58C-47287A243B14}" Type="Ref">/My Computer/DataPool.lvlib/Ch2 Waveform</Property>
 	<Property Name="varPersistentID:{625241D6-0243-4824-9A9F-9A99A44AC411}" Type="Ref">/My Computer/DataPool.lvlib/NI6008 Online</Property>
 	<Property Name="varPersistentID:{C37D6C20-7923-4323-A7D5-5F837DFCD575}" Type="Ref">/My Computer/DataPool.lvlib/NI6008_Triggered</Property>
+	<Property Name="varPersistentID:{D4A67138-5FF3-412C-A8E6-C6ED8943C668}" Type="Ref">/My Computer/DataPool.lvlib/Ch1 Waveform</Property>
+	<Property Name="varPersistentID:{FC853B72-2DAA-47EE-A334-E3CB432DF3C6}" Type="Ref">/My Computer/DataPool.lvlib/Res Waveform</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -23,6 +26,7 @@
 			<Item Name="Unit Test launcher.vi" Type="VI" URL="../Unit Testing/Unit_Test_NI6008/Unit_Test_NI6008/Unit Test launcher.vi"/>
 			<Item Name="Unit_Test_NI6008.lvlib" Type="Library" URL="../Unit Testing/Unit_Test_NI6008/Unit_Test_NI6008.lvlib"/>
 			<Item Name="Unit_Test_AFG.lvlib" Type="Library" URL="../Unit_Test_AFG/Unit_Test_AFG.lvlib"/>
+			<Item Name="Unit_Test_Scope.lvlib" Type="Library" URL="../Unit_Test_Scope/Unit_Test_Scope.lvlib"/>
 		</Item>
 		<Item Name="DataPool.lvlib" Type="Library" URL="../DataPool/DataPool.lvlib"/>
 		<Item Name="_luncher.vi" Type="VI" URL="../_luncher.vi"/>
@@ -269,9 +273,20 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="Binary to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Binary to Digital.vi"/>
+				<Item Name="DWDT Binary U32 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Binary U32 to Digital.vi"/>
+				<Item Name="DTbl Binary U32 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U32 to Digital.vi"/>
+				<Item Name="Compress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Compress Digital.vi"/>
+				<Item Name="DTbl Compress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Compress Digital.vi"/>
+				<Item Name="DWDT Compress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Compress Digital.vi"/>
+				<Item Name="DWDT Binary U16 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Binary U16 to Digital.vi"/>
+				<Item Name="DTbl Binary U16 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U16 to Digital.vi"/>
+				<Item Name="DWDT Binary U8 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Binary U8 to Digital.vi"/>
+				<Item Name="DTbl Binary U8 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U8 to Digital.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
+				<Item Name="Agilent 8000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 8000 Series/Agilent 8000 Series.lvlib"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
