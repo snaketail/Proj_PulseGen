@@ -7,6 +7,7 @@
 		<Item Name="Msg from this" Type="Folder">
 			<Item Name="cmd RandGen Msg.lvclass" Type="LVClass" URL="../IUI_Command Messages/cmd RandGen Msg/cmd RandGen Msg.lvclass"/>
 			<Item Name="cmd Stop Msg.lvclass" Type="LVClass" URL="../IUI_Command Messages/cmd Stop Msg/cmd Stop Msg.lvclass"/>
+			<Item Name="UI Send Action Msg.lvclass" Type="LVClass" URL="../IUI_Command Messages/UI Send Action Msg/UI Send Action Msg.lvclass"/>
 		</Item>
 		<Item Name="Msg to this" Type="Folder">
 			<Item Name="Do UI Exit Msg.lvclass" Type="LVClass" URL="../Main_UI Messages/Do UI Exit Msg/Do UI Exit Msg.lvclass"/>

@@ -58,6 +58,15 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 	</Item>
+	<Item Name="UI Actions.ctl" Type="VI" URL="../UI Actions.ctl">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"!!!!!!1!Y!0%!!!!!!!!!!QV.97FO8V6*,GRW&lt;'FC$UVB;7Z@65EO&lt;(:D&lt;'&amp;T=QF$&lt;WZU=G^M)$%!#!!!!!%!!!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">5242880</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
+	</Item>
 	<Item Name="PCRamCellNo.ctl" Type="VI" URL="../../PCRamCellNo.ctl">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"V!!!!!1"N!0%!!!!!!!!!!QV.97FO8V6*,GRW&lt;'FC$UVB;7Z@65EO&lt;(:D&lt;'&amp;T=Q^11V*B&lt;5.F&lt;'R/&lt;SZD&gt;'Q!.U!7!!1'1W6M&lt;#!R"E.F&lt;'QA-A:$:7RM)$-'1W6M&lt;#!U!!Z11V*B&lt;3"$:7RM)%ZP,A!!!1!!!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

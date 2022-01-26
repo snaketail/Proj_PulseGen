@@ -26,4 +26,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
+	<Item Name="UI Send Action.vi" Type="VI" URL="../UI Send Action.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(Z!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$R!=!!?!!!D$5VB;7Z@65EO&lt;(:M;7)4366*8U.P&lt;7VB&lt;G1O&lt;(:D&lt;'&amp;T=Q!0366*8U.P&lt;7VB&lt;G1A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%%"4#U&amp;D&gt;'FP&lt;C"%982B!,1!]1!!!!!!!!!$$5VB;7Z@65EO&lt;(:M;7)047&amp;J&lt;F^633ZM&gt;G.M98.T$F6*)%&amp;D&gt;'FP&lt;H-O9X2M!(^!&amp;A!'$6"B&gt;8.F)&amp;"S:8.T:71.6X*J&gt;'5A5(*F=X.F:!^36C"4:7ZE)&amp;"S:8.T:7125W&amp;W:3"%982B)&amp;"S:8.T:7125W6M:C"5:8.U)&amp;"S:8.T:7175%.397UA1W6M&lt;#"/&lt;SYA1WBB&lt;G&gt;F:!!!#F6*)%&amp;D&gt;'FP&lt;H-!!$R!=!!?!!!D$5VB;7Z@65EO&lt;(:M;7)4366*8U.P&lt;7VB&lt;G1O&lt;(:D&lt;'&amp;T=Q!/366*8U.P&lt;7VB&lt;G1A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!=!#!!*!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!#!!!!!A!!!#1!!!!!!%!#A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
+	</Item>
 </LVClass>
