@@ -285,7 +285,6 @@
 				<Item Name="DTbl Binary U8 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U8 to Digital.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
 				<Item Name="Agilent 8000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 8000 Series/Agilent 8000 Series.lvlib"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
@@ -296,9 +295,6 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="AFG Points Gen.vi" Type="VI" URL="../../../../Desktop/AFG Points Gen.vi"/>
-			<Item Name="Section Points.vi" Type="VI" URL="../../../../Desktop/Section Points.vi"/>
-			<Item Name="RFt Gen.vi" Type="VI" URL="../../../../Desktop/RFt Gen.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

@@ -9,6 +9,7 @@
 			<Item Name="AFG Enable Output Msg.lvclass" Type="LVClass" URL="../Actor_AFG Messages/AFG Enable Output Msg/AFG Enable Output Msg.lvclass"/>
 			<Item Name="Setup Pulse Waveform Msg.lvclass" Type="LVClass" URL="../Actor_AFG Messages/Setup Pulse Waveform Msg/Setup Pulse Waveform Msg.lvclass"/>
 			<Item Name="AFG Setup Cycle Msg.lvclass" Type="LVClass" URL="../Actor_AFG Messages/AFG Setup Cycle Msg/AFG Setup Cycle Msg.lvclass"/>
+			<Item Name="AFG Config DC Voltage Msg.lvclass" Type="LVClass" URL="../Actor_AFG Messages/AFG Config DC Voltage Msg/AFG Config DC Voltage Msg.lvclass"/>
 		</Item>
 		<Item Name="Msg from this" Type="Folder">
 			<Item Name="AFG Report Event Msg.lvclass" Type="LVClass" URL="../I_AFG Messages/AFG Report Event Msg/AFG Report Event Msg.lvclass"/>

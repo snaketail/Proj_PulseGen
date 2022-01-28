@@ -15,4 +15,5 @@
 	</Item>
 	<Item Name="IUI_Command.lvclass" Type="LVClass" URL="../IUI_Command/IUI_Command.lvclass"/>
 	<Item Name="Main_UI.lvclass" Type="LVClass" URL="../Main_UI/Main_UI.lvclass"/>
+	<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
 </Library>
