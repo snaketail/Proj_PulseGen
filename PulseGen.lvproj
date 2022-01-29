@@ -9,6 +9,7 @@
 	<Property Name="varPersistentID:{625241D6-0243-4824-9A9F-9A99A44AC411}" Type="Ref">/My Computer/DataPool.lvlib/NI6008 Online</Property>
 	<Property Name="varPersistentID:{C37D6C20-7923-4323-A7D5-5F837DFCD575}" Type="Ref">/My Computer/DataPool.lvlib/NI6008_Triggered</Property>
 	<Property Name="varPersistentID:{D4A67138-5FF3-412C-A8E6-C6ED8943C668}" Type="Ref">/My Computer/DataPool.lvlib/Ch1 Waveform</Property>
+	<Property Name="varPersistentID:{EAA2D03E-402A-4DFE-BF0F-34A5C0FC2C15}" Type="Ref">/My Computer/Controller.lvlib/Cycle State</Property>
 	<Property Name="varPersistentID:{FC853B72-2DAA-47EE-A334-E3CB432DF3C6}" Type="Ref">/My Computer/DataPool.lvlib/Res Waveform</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -286,6 +287,7 @@
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent 8000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 8000 Series/Agilent 8000 Series.lvlib"/>
+				<Item Name="Tektronix AFG 3000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix AFG 3000 Series/Tektronix AFG 3000 Series.lvlib"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>

@@ -86,4 +86,5 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"D8Q!!!#!!A!!!!!!"!":!6!!$$U2P&gt;7*M:3"898:F:G^S&lt;1!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!#!!!!!!!%!"!!!!!%!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="CycleState.ctl" Type="VI" URL="../CycleState.ctl"/>
 </Library>
