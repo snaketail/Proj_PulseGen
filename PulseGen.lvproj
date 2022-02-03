@@ -6,11 +6,13 @@
 	<Property Name="varPersistentID:{3C83B601-FBED-47DB-820A-4B632021FB3F}" Type="Ref">/My Computer/DataPool.lvlib/AFG Online</Property>
 	<Property Name="varPersistentID:{3D2B5533-AE1D-4CD9-AA84-71BBC7C14D9A}" Type="Ref">/My Computer/DataPool.lvlib/Scope Online</Property>
 	<Property Name="varPersistentID:{3E9D1732-E236-45DA-A58C-47287A243B14}" Type="Ref">/My Computer/DataPool.lvlib/Ch2 Waveform</Property>
+	<Property Name="varPersistentID:{49B2773D-FE08-49D2-B605-D306440A6FDE}" Type="Ref">/My Computer/DataPool.lvlib/Resistance</Property>
 	<Property Name="varPersistentID:{625241D6-0243-4824-9A9F-9A99A44AC411}" Type="Ref">/My Computer/DataPool.lvlib/NI6008 Online</Property>
 	<Property Name="varPersistentID:{C37D6C20-7923-4323-A7D5-5F837DFCD575}" Type="Ref">/My Computer/DataPool.lvlib/NI6008_Triggered</Property>
 	<Property Name="varPersistentID:{D4A67138-5FF3-412C-A8E6-C6ED8943C668}" Type="Ref">/My Computer/DataPool.lvlib/Ch1 Waveform</Property>
 	<Property Name="varPersistentID:{EAA2D03E-402A-4DFE-BF0F-34A5C0FC2C15}" Type="Ref">/My Computer/Controller.lvlib/Cycle State</Property>
 	<Property Name="varPersistentID:{FC853B72-2DAA-47EE-A334-E3CB432DF3C6}" Type="Ref">/My Computer/DataPool.lvlib/Res Waveform</Property>
+	<Property Name="varPersistentID:{FF99E0A1-CA54-4F8F-8525-B9879C8FADE6}" Type="Ref">/My Computer/DataPool.lvlib/System Msg</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -24,12 +26,12 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Unit Testing" Type="Folder">
 			<Item Name="AppPath.vi" Type="VI" URL="../Unit Testing/Unit_Test_NI6008/AppPath.vi"/>
-			<Item Name="Unit Test launcher.vi" Type="VI" URL="../Unit Testing/Unit_Test_NI6008/Unit_Test_NI6008/Unit Test launcher.vi"/>
 			<Item Name="Unit_Test_NI6008.lvlib" Type="Library" URL="../Unit Testing/Unit_Test_NI6008/Unit_Test_NI6008.lvlib"/>
 			<Item Name="Unit_Test_AFG.lvlib" Type="Library" URL="../Unit_Test_AFG/Unit_Test_AFG.lvlib"/>
 			<Item Name="Unit_Test_Scope.lvlib" Type="Library" URL="../Unit_Test_Scope/Unit_Test_Scope.lvlib"/>
 		</Item>
 		<Item Name="DataPool.lvlib" Type="Library" URL="../DataPool/DataPool.lvlib"/>
+		<Item Name="Unit Test launcher.vi" Type="VI" URL="../Unit Testing/Unit_Test_NI6008/Unit_Test_NI6008/Unit Test launcher.vi"/>
 		<Item Name="_luncher.vi" Type="VI" URL="../_luncher.vi"/>
 		<Item Name="Controller.lvlib" Type="Library" URL="../Controller/Controller.lvlib"/>
 		<Item Name="Main_UI.lvlib" Type="Library" URL="../Main_UI/Main_UI.lvlib"/>
@@ -284,6 +286,9 @@
 				<Item Name="DTbl Binary U16 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U16 to Digital.vi"/>
 				<Item Name="DWDT Binary U8 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Binary U8 to Digital.vi"/>
 				<Item Name="DTbl Binary U8 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U8 to Digital.vi"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent 8000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 8000 Series/Agilent 8000 Series.lvlib"/>
@@ -297,7 +302,169 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Unit Tester" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{4E604648-F23C-4CB6-9463-C221D5275F68}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{3CE561C3-6802-4D99-A14E-186CCA443467}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D1244F6C-5B41-42D6-8E6C-A714B6074F5B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Unit Tester</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Unit Tester</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{20B1A4C4-E849-4C96-BDC0-261E70261629}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Unit Tester.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Unit Tester/Unit Tester.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Unit Tester/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1E800B0B-E4EB-4B73-B669-195633792365}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DataPool.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Unit Test launcher.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Unit Testing</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Controller.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Main_UI.lvlib</Property>
+				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Library</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Actor_log.lvlib</Property>
+				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Actor_NI6008.lvlib</Property>
+				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">Library</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Actor_AFG.lvlib</Property>
+				<Property Name="Source[8].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">Library</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Actor_Scope.lvlib</Property>
+				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="TgtF_companyName" Type="Str">HandyInt</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Unit Tester</Property>
+				<Property Name="TgtF_internalName" Type="Str">Unit Tester</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 HandyInt</Property>
+				<Property Name="TgtF_productName" Type="Str">Unit Tester</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{6EE9D079-4A3D-4FDE-A443-2F9E21B11C56}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Unit Tester.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Pulse App" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{DCD77F6A-3FCF-4A93-8738-AA1F67771940}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{52625934-FD2D-4529-AF3F-2A5A99F538B5}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{60F92212-A5BE-4AAC-90A5-627844281F89}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Pulse App</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Pulse App</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{82D09387-8472-41C8-BE31-894628ADC7DB}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">NVM Pulse Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Pulse App/NVM Pulse Application.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Pulse App/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{216CC12C-50D0-4ECA-8D41-F3C509149030}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/_luncher.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DataPool.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Controller.lvlib</Property>
+				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Main_UI.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Actor_log.lvlib</Property>
+				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Library</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Actor_NI6008.lvlib</Property>
+				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Actor_AFG.lvlib</Property>
+				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">Library</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Actor_Scope.lvlib</Property>
+				<Property Name="Source[8].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="TgtF_companyName" Type="Str">HandyInt</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Pulse App</Property>
+				<Property Name="TgtF_internalName" Type="Str">Pulse App</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 HandyInt</Property>
+				<Property Name="TgtF_productName" Type="Str">Pulse App</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{2398DBC8-510F-41E9-A289-A3D51B48AB7F}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">NVM Pulse Application.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
