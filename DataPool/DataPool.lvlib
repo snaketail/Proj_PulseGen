@@ -4,6 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="CycleState.ctl" Type="VI" URL="../CycleState.ctl"/>
+	<Item Name="ResArray.ctl" Type="VI" URL="../ResArray.ctl"/>
 	<Item Name="AI0_reading" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -86,15 +88,6 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"D8Q!!!#!!A!!!!!!"!":!6!!$$U2P&gt;7*M:3"898:F:G^S&lt;1!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!#!!!!!!!%!"!!!!!%!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="CycleState.ctl" Type="VI" URL="../CycleState.ctl"/>
-	<Item Name="System Msg" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!#!!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="Resistance" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -102,5 +95,15 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="ResHistory" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">DataPool.lvlib:ResArray.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../ResArray.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"[&gt;A!!!#!!A!!!!!!%!!N!#A!%6'FN:1!!#5!+!!.3:8-!%%"1!!)!!!!""6*F=VB:!$Y!]1!!!!!!!!!#$E2B&gt;'&amp;1&lt;W^M,GRW&lt;'FC$&amp;*F=U&amp;S=G&amp;Z,G.U&lt;!!;1%!!!@````]!!AB3:8."=H*B?1!!!1!$!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>

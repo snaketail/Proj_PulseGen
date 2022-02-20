@@ -5,18 +5,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Messages for this Actor" Type="Folder"/>
-	<Item Name="Cycle State" Type="Variable">
-		<Property Name="Description:Description" Type="Str">Store the Life Cycle Test States
-</Property>
-		<Property Name="featurePacks" Type="Str">Description,Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">DataPool.lvlib:CycleState.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../DataPool/CycleState.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"R&lt;1!!!#!!A!!!!!!"!&amp;M!]1!!!!!!!!!#$E2B&gt;'&amp;1&lt;W^M,GRW&lt;'FC$E.Z9WRF5X2B&gt;'5O9X2M!$6!&amp;A!%"%FE&lt;'5(5H6O&lt;GFO:Q:1986T:71)37ZB9X2J&gt;G5!!!N$?7.M:3"4&gt;'&amp;U:1!"!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="Controller.lvclass" Type="LVClass" URL="../Controller/Controller.lvclass"/>
 </Library>

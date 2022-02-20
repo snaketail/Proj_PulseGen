@@ -13,6 +13,7 @@
 		<Item Name="Msg to this" Type="Folder">
 			<Item Name="Do UI Exit Msg.lvclass" Type="LVClass" URL="../Main_UI Messages/Do UI Exit Msg/Do UI Exit Msg.lvclass"/>
 			<Item Name="Update Cycle States Msg.lvclass" Type="LVClass" URL="../Main_UI Messages/Update Cycle States Msg/Update Cycle States Msg.lvclass"/>
+			<Item Name="Return to Single Pulse Msg.lvclass" Type="LVClass" URL="../Main_UI Messages/Return to Single Pulse Msg/Return to Single Pulse Msg.lvclass"/>
 		</Item>
 	</Item>
 	<Item Name="IUI_Command.lvclass" Type="LVClass" URL="../IUI_Command/IUI_Command.lvclass"/>

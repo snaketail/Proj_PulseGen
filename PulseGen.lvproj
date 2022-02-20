@@ -10,9 +10,8 @@
 	<Property Name="varPersistentID:{625241D6-0243-4824-9A9F-9A99A44AC411}" Type="Ref">/My Computer/DataPool.lvlib/NI6008 Online</Property>
 	<Property Name="varPersistentID:{C37D6C20-7923-4323-A7D5-5F837DFCD575}" Type="Ref">/My Computer/DataPool.lvlib/NI6008_Triggered</Property>
 	<Property Name="varPersistentID:{D4A67138-5FF3-412C-A8E6-C6ED8943C668}" Type="Ref">/My Computer/DataPool.lvlib/Ch1 Waveform</Property>
-	<Property Name="varPersistentID:{EAA2D03E-402A-4DFE-BF0F-34A5C0FC2C15}" Type="Ref">/My Computer/Controller.lvlib/Cycle State</Property>
+	<Property Name="varPersistentID:{EE892CE9-3985-4B6F-B5D7-5376F0CE1437}" Type="Ref">/My Computer/DataPool.lvlib/ResHistory</Property>
 	<Property Name="varPersistentID:{FC853B72-2DAA-47EE-A334-E3CB432DF3C6}" Type="Ref">/My Computer/DataPool.lvlib/Res Waveform</Property>
-	<Property Name="varPersistentID:{FF99E0A1-CA54-4F8F-8525-B9879C8FADE6}" Type="Ref">/My Computer/DataPool.lvlib/System Msg</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -31,8 +30,8 @@
 			<Item Name="Unit_Test_Scope.lvlib" Type="Library" URL="../Unit_Test_Scope/Unit_Test_Scope.lvlib"/>
 		</Item>
 		<Item Name="DataPool.lvlib" Type="Library" URL="../DataPool/DataPool.lvlib"/>
-		<Item Name="Unit Test launcher.vi" Type="VI" URL="../Unit Testing/Unit_Test_NI6008/Unit_Test_NI6008/Unit Test launcher.vi"/>
 		<Item Name="_luncher.vi" Type="VI" URL="../_luncher.vi"/>
+		<Item Name="Unit Test launcher.vi" Type="VI" URL="../Unit Testing/Unit_Test_NI6008/Unit_Test_NI6008/Unit Test launcher.vi"/>
 		<Item Name="Controller.lvlib" Type="Library" URL="../Controller/Controller.lvlib"/>
 		<Item Name="Main_UI.lvlib" Type="Library" URL="../Main_UI/Main_UI.lvlib"/>
 		<Item Name="Actor_log.lvlib" Type="Library" URL="../Actor_log/Actor_log.lvlib"/>
@@ -286,8 +285,6 @@
 				<Item Name="DTbl Binary U16 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U16 to Digital.vi"/>
 				<Item Name="DWDT Binary U8 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Binary U8 to Digital.vi"/>
 				<Item Name="DTbl Binary U8 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U8 to Digital.vi"/>
-				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
-				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
@@ -404,7 +401,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{82D09387-8472-41C8-BE31-894628ADC7DB}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">NVM Pulse Application.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Pulse App/NVM Pulse Application.exe</Property>
@@ -413,7 +410,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Pulse App/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{216CC12C-50D0-4ECA-8D41-F3C509149030}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B26B0D8B-8C93-49AF-A45F-3F8843F0CE86}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/_luncher.vi</Property>
