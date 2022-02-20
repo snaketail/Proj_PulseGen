@@ -8,6 +8,7 @@
 	<Property Name="varPersistentID:{3E9D1732-E236-45DA-A58C-47287A243B14}" Type="Ref">/My Computer/DataPool.lvlib/Ch2 Waveform</Property>
 	<Property Name="varPersistentID:{49B2773D-FE08-49D2-B605-D306440A6FDE}" Type="Ref">/My Computer/DataPool.lvlib/Resistance</Property>
 	<Property Name="varPersistentID:{625241D6-0243-4824-9A9F-9A99A44AC411}" Type="Ref">/My Computer/DataPool.lvlib/NI6008 Online</Property>
+	<Property Name="varPersistentID:{ACF580A8-3E3C-4A29-8223-A7B8BBEC4EB8}" Type="Ref">/My Computer/DataPool.lvlib/Current Res Points</Property>
 	<Property Name="varPersistentID:{C37D6C20-7923-4323-A7D5-5F837DFCD575}" Type="Ref">/My Computer/DataPool.lvlib/NI6008_Triggered</Property>
 	<Property Name="varPersistentID:{D4A67138-5FF3-412C-A8E6-C6ED8943C668}" Type="Ref">/My Computer/DataPool.lvlib/Ch1 Waveform</Property>
 	<Property Name="varPersistentID:{EE892CE9-3985-4B6F-B5D7-5376F0CE1437}" Type="Ref">/My Computer/DataPool.lvlib/ResHistory</Property>

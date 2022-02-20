@@ -106,4 +106,12 @@
 		<Property Name="typedefPath1" Type="PathRel">../ResArray.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"[&gt;A!!!#!!A!!!!!!%!!N!#A!%6'FN:1!!#5!+!!.3:8-!%%"1!!)!!!!""6*F=VB:!$Y!]1!!!!!!!!!#$E2B&gt;'&amp;1&lt;W^M,GRW&lt;'FC$&amp;*F=U&amp;S=G&amp;Z,G.U&lt;!!;1%!!!@````]!!AB3:8."=H*B?1!!!1!$!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Current Res Points" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!#!!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 </Library>
